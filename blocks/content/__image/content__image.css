@@ -1,0 +1,7 @@
+   .content__image {
+       background-image: url(/image/gamepad.svg);
+       background-size: 767px 706px;
+       background-repeat: no-repeat;
+       width: 767px;
+       height: 706px;
+   }

@@ -1,0 +1,10 @@
+ .header__menu_ul {
+     width: 100%;
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 18.5px;
+     padding: 0;
+     margin: 16px 0 0 0;
+ }

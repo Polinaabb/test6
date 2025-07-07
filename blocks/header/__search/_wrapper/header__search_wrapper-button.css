@@ -1,0 +1,11 @@
+  .header__search_wrapper-button {
+      position: absolute;
+      right: 1px;
+      border: none;
+      border-radius: 8px;
+      background-color: rgba(72, 136, 255, 1);
+      width: 78px;
+      height: 40px;
+      margin: 4px;
+      cursor: pointer;
+  }

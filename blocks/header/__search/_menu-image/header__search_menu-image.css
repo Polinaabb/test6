@@ -1,0 +1,11 @@
+.header__search_menu-image {
+    background-image: url(/image/menu.svg);
+    background-size: 41px 16px;
+    background-color: rgba(72, 136, 255, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    min-width: 101px;
+    height: 48px;
+    cursor: pointer;
+}

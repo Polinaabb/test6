@@ -1,0 +1,14 @@
+  .header__icon-components_button {
+    grid-column: 1 / span 3;
+    height: 42px;
+    background-color: rgba(244, 244, 244, 1);
+    color: rgba(72, 136, 255, 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .header__icon-components_button:hover {
+    background-color: rgba(72, 136, 255, 1);
+    color: rgba(244, 244, 244, 1);
+  }

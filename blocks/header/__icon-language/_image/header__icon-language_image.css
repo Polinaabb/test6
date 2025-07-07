@@ -1,0 +1,9 @@
+   .header__icon-language_image {
+       background-image: url(/image/earth.svg);
+       background-size: 21px 21px;
+       background-position: center;
+       background-repeat: no-repeat;
+       min-width: 24px;
+       height: 24px;
+       padding-right: 2px;
+   }

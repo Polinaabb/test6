@@ -1,0 +1,11 @@
+ .popup__menu_content {
+     position: relative;
+     display: flex;
+     flex-direction: row;
+     gap: 41px;
+     background: white;
+     padding: 30px 30px 30px 0;
+     border-radius: 8px;
+     max-width: 892px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+ }

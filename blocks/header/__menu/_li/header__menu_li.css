@@ -1,0 +1,19 @@
+ .header__menu_li {
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     background-color: rgba(244, 244, 244, 1);
+     border-radius: 8px;
+     padding: 12px 10px 12px 10px;
+ }
+
+ .header__menu_li a {
+     background-color: rgba(244, 244, 244, 1);
+     text-decoration: none;
+     color: #333;
+     font-weight: 500;
+ }
+
+ .header__menu_li a:hover {
+    color: rgba(72, 136, 255, 1);
+ }

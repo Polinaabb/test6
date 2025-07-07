@@ -1,0 +1,14 @@
+ .header__search_icon-massager-whatsapp {
+     background-image: url(/image/whatsapp.svg);
+     background-size: 24px 24px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-color: rgba(244, 244, 244, 1);
+     border-radius: 4px;
+     width: 48px;
+     height: 48px;
+ }
+
+  .header__search_icon-massager-whatsapp:hover {
+    background-color: rgba(212, 217, 221, 1);
+   }

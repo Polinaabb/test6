@@ -1,0 +1,7 @@
+   .header__search_wrapper-input {
+    position: relative;
+     width: 100%;
+     border-color: rgba(72, 136, 255, 0.2);
+     border-radius: 8px;
+     padding-left: 49px;
+   }

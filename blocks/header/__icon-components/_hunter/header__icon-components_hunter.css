@@ -1,0 +1,15 @@
+.header__icon-components_hunter {
+    background-image: url(/image/hunter.svg);
+    background-size: 24px 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid 1px rgba(211, 211, 211, 1);
+    border-radius: 4px;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.header__icon-components_hunter:hover {
+    filter: sepia(1) hue-rotate(560deg) saturate(10);
+}

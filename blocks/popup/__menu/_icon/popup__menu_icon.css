@@ -1,0 +1,12 @@
+.popup__menu_icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding-left: 30px;
+    min-width: 338px;
+}
+
+ .popup__menu_icon:hover {
+    background-color: rgba(243, 243, 243, 1);
+ }

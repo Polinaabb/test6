@@ -1,0 +1,18 @@
+.top-bar__content_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 0;
+}
+
+.top-bar__content_menu a {
+    color: rgba(52, 58, 63, 1);
+    list-style-type: none;
+    font-family: 'Maza';
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.top-bar__content_menu a:hover {
+    color: rgba(72, 136, 255, 1);
+}

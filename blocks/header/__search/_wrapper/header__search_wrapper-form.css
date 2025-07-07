@@ -1,0 +1,6 @@
+ .header__search_wrapper-form {
+       display: flex;
+       flex-direction: row;
+       height: 48px;
+       width: 598px;
+ }

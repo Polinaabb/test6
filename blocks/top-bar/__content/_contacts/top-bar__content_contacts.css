@@ -1,0 +1,12 @@
+  .top-bar__content_contacts {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .top-bar__content_contacts a {
+      color: rgba(52, 58, 63, 1);
+      list-style-type: none;
+      font-family: 'Maza';
+      font-size: 14px;
+      text-decoration: none;
+  }

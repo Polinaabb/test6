@@ -1,0 +1,9 @@
+    .top-bar__content_contacts-icon-navigation {
+        background-image: url(/image/navigation.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 16px;
+        height: 16px;
+        margin-right: 1px;
+    }

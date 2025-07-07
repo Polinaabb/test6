@@ -1,0 +1,6 @@
+  .header__search_icon-massager {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin-left: 12px;
+  }

@@ -1,0 +1,6 @@
+ .header__menu_li-stocks-icon {
+     background-image: url(/image/stocks.svg);
+     background-size: 20px 20px;
+     background-repeat: no-repeat;
+     width: 20px;
+ }

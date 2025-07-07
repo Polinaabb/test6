@@ -1,0 +1,6 @@
+   .header__icon-components {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       column-gap: 16px;
+       margin: 0 40px 0 18px;
+   }

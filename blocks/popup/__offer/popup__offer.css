@@ -1,0 +1,8 @@
+  .popup__offer {
+      max-width: 757px;
+      left: 278px;
+  }
+
+  .popup__offer.active {
+      display: block;
+  }

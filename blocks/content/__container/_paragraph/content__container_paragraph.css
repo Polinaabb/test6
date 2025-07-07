@@ -1,0 +1,8 @@
+   .content__container_paragraph {
+       font-family: "Tenor Sans";
+       font-size: 18px;
+       line-height: 24px;
+       color: rgba(255, 255, 255, 1);
+       max-width: 639px;
+       margin: 0;
+   }

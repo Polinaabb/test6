@@ -1,0 +1,6 @@
+.content {
+    background: linear-gradient(to right, #672870 20%, #4FE0FF 100%);
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+}

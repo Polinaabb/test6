@@ -1,0 +1,5 @@
+  .popup__menu_items-lists {
+      display: flex;
+      flex-direction: row;
+      gap: 101px;
+  }
