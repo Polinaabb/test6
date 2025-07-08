@@ -4,3 +4,10 @@
        height: 48px;
        width: 598px;
  }
+
+ @media screen and (max-width: 360px) {
+       .header__search_wrapper-form {
+             width: 328px;
+             height: 46px;
+       }
+ }

@@ -1,0 +1,6 @@
+.top-bar__content_hour-icon {
+    background-image: url(/image/clock.svg);
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}

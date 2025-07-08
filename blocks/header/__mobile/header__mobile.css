@@ -1,0 +1,12 @@
+.header__mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 360px) {
+    .header__mobile {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+    }
+}

@@ -5,3 +5,10 @@
      color: rgba(255, 255, 255, 1);
      margin: 0;
  }
+
+ @media screen and (max-width: 360px) {
+     .content__container_title {
+         font-size: 24px;
+         line-height: 26px;
+     }
+ }

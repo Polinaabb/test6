@@ -1,0 +1,5 @@
+.header__mobile_icon {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}

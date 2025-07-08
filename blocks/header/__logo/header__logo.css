@@ -1,11 +1,20 @@
   .header__logo {
-      background-image: url(/image/logo.svg);
-      background-size: 41px 41px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-color: rgba(72, 136, 255, 1);
-      width: 70px;
-      height: 70px;
-      border-radius: 35px;
-      margin-left: 40px;
+    background-image: url(/image/logo.svg);
+    background-size: 41px 41px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(72, 136, 255, 1);
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-left: 40px;
+  }
+
+  @media screen and (max-width: 360px) {
+    .header__logo {
+      margin-left: 0;
+      background-size: 28.7px 28.7px;
+      width: 56px;
+      height: 56px;
+    }
   }

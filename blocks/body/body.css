@@ -6,3 +6,10 @@
       max-width: 1440px;
       overflow-y: auto;
   }
+
+  @media screen and (max-width: 360px) {
+    .body {
+        max-width: 360px;
+        
+    }
+}

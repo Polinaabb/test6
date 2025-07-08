@@ -1,53 +1,60 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const menuButton = document.querySelector('.header__search_menu-image');
+document.addEventListener('DOMContentLoaded', function () {
+
     const popupMenu = document.querySelector('.popup__menu');
-    const hotOfferButton = document.querySelector('.header__menu_li-hot');
+    const popupMobile = document.querySelector('.popup__mobile');
     const popupOffer = document.querySelector('.popup__offer');
-    
-    // Функция для открытия/закрытия попапа меню
-    function togglePopup() {
-        popupMenu.classList.toggle('active');
+
+    const menuImages = document.querySelectorAll('.header__search_menu-image');
+    const hotOffer = document.querySelector('.header__menu_li-hot');
+
+    function checkScreenWidth() {
+        return window.innerWidth;
     }
-    
-    // Функция для открытия/закрытия попапа предложения
-    function toggleOfferPopup() {
-        popupOffer.classList.toggle('active');
-        // Закрываем другой попап при открытии этого
-        if (popupMenu.classList.contains('active')) {
-            popupMenu.classList.remove('active');
-        }
+
+    function closeAllPopups() {
+        popupMenu.classList.remove('active');
+        popupMobile.classList.remove('active');
+        popupOffer.classList.remove('active');
     }
-    
-    // Открытие/закрытие по клику на иконку меню
-    menuButton.addEventListener('click', function(e) {
-        e.stopPropagation();
-        togglePopup();
+
+    menuImages.forEach(menuImage => {
+        menuImage.addEventListener('click', function (e) {
+            e.stopPropagation();
+            const screenWidth = checkScreenWidth();
+
+            closeAllPopups();
+
+            if (screenWidth >= 1440) {
+                popupMenu.classList.add('active');
+            } else if (screenWidth <= 360) {
+                popupMobile.classList.add('active');
+            }
+        });
     });
-    
-    // Открытие/закрытие по клику на "Горячее предложение"
-    hotOfferButton.addEventListener('click', function(e) {
+
+    hotOffer.addEventListener('click', function (e) {
         e.stopPropagation();
-        toggleOfferPopup();
-    });
-    
-    // Закрытие по клику в любом месте экрана
-    document.addEventListener('click', function() {
-        if (popupMenu.classList.contains('active')) {
-            togglePopup();
+        const screenWidth = checkScreenWidth();
+
+        if (screenWidth >= 1440) {
+            closeAllPopups();
+            popupOffer.classList.add('active');
         }
-        if (popupOffer.classList.contains('active')) {
-            toggleOfferPopup();
-        }
     });
-    
-    // Предотвращаем закрытие при клике внутри контента попапов
-    popupMenu.querySelector('.popup__menu_content').addEventListener('click', function(e) {
-        e.stopPropagation();
+
+    document.addEventListener('click', function () {
+        closeAllPopups();
     });
-    
-    popupOffer.querySelector('.popup__menu_content').addEventListener('click', function(e) {
-        e.stopPropagation();
+
+    const popups = document.querySelectorAll('.popup');
+    popups.forEach(popup => {
+        popup.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
+    });
+
+    window.addEventListener('resize', function () {
+        closeAllPopups();
     });
 });
 
- 

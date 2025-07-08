@@ -7,3 +7,9 @@
         height: 16px;
         margin-right: 1px;
     }
+
+    @media screen and (max-width: 360px) {
+        .top-bar__content_contacts-icon-navigation {
+            display: none;
+        }
+    }

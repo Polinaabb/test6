@@ -1,6 +1,14 @@
   .header__search_icon-massager {
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 12px;
+  }
+
+
+  @media screen and (max-width: 360px) {
+    .header__search_icon-massager {
+      gap: 6px;
+      margin-left: 0;
+    }
   }

@@ -16,3 +16,9 @@
 .top-bar__content_menu a:hover {
     color: rgba(72, 136, 255, 1);
 }
+
+@media screen and (max-width: 360px) {
+    .top-bar__content_menu {
+        display: none;
+    }
+}

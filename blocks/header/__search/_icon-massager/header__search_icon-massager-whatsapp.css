@@ -12,3 +12,11 @@
   .header__search_icon-massager-whatsapp:hover {
     background-color: rgba(212, 217, 221, 1);
    }
+
+    @media screen and (max-width: 360px) {
+    .header__search_icon-massager-whatsapp {
+      background-size: 20px 20px;
+      width: 40px;
+     height: 40px;
+    }
+  }

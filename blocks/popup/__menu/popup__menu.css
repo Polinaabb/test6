@@ -1,3 +1,4 @@
-.popup__menu.active {
-    display: block;
+.popup__menu {
+    display: none;
 }
+

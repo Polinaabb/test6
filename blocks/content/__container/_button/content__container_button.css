@@ -13,3 +13,10 @@
       color: rgba(103, 40, 112, 1);
       cursor: pointer;
   }
+
+   @media screen and (max-width: 360px) {
+     .content__container_button {
+         font-size: 14px;
+         line-height: 19px;
+     }
+ }

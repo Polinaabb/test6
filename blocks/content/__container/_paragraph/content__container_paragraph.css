@@ -6,3 +6,10 @@
        max-width: 639px;
        margin: 0;
    }
+
+    @media screen and (max-width: 360px) {
+     .content__container_paragraph {
+         font-size: 14px;
+         line-height: 19px;
+     }
+ }

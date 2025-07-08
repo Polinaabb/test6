@@ -12,3 +12,11 @@
     background-color: rgba(72, 136, 255, 1);
     color: rgba(244, 244, 244, 1);
   }
+
+  @media screen and (max-width: 360px) {
+    .header__icon-components_button {
+      width: 328px;
+      margin-left: 16px;
+      margin-top: 24px;
+    }
+  }

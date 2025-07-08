@@ -1,12 +1,25 @@
   .top-bar__content_contacts {
-      display: flex;
-      flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
 
   .top-bar__content_contacts a {
-      color: rgba(52, 58, 63, 1);
-      list-style-type: none;
-      font-family: 'Maza';
-      font-size: 14px;
-      text-decoration: none;
+    color: rgba(52, 58, 63, 1);
+    list-style-type: none;
+    font-family: 'Maza';
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 360px) {
+    .top-bar__content_contacts-navigation {
+      display: none;
+    }
+
+    .top-bar__content_contacts {
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 30px;
+    }
   }

@@ -5,3 +5,12 @@
        width: 767px;
        height: 706px;
    }
+
+   @media screen and (max-width: 360px) {
+    .content__image {
+       background-size: contain;
+        margin-left: 230px;
+        width: 397px;
+       height: 365px;
+    }
+}

@@ -13,3 +13,11 @@
  .header__icon-components_like:hover {
      filter: sepia(1) hue-rotate(560deg) saturate(10);
  }
+
+ @media screen and (max-width: 360px) {
+     .header__icon-components_like {
+         background-size: 20px 20px;
+         width: 40px;
+         height: 40px;
+     }
+ }
